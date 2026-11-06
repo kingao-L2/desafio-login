@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login - Desafio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Usuário / E-mail</label>
+        <input type="text" id="username" required placeholder="Digite seu usuário">
+      </div>
+      <div class="input-group">
+        <label for="password">Senha</label>
+        <input type="password" id="password" required placeholder="Digite sua senha">
+      </div>
+      <button type="submit">Entrar</button>
+    </form>
+    
+    <div id="message" class="message hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
